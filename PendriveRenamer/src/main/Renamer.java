@@ -32,9 +32,7 @@ public class Renamer {
 
 		String nameOfUSB = "USB Drive";
 		// Get the name of USB drive
-		if (textField.getText() != null) {
-			nameOfUSB = textField.getText();
-		}
+		nameOfUSB = textField.getText();
 
 		// Write Content
 		FileWriter writer;
